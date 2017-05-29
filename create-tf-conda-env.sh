@@ -22,3 +22,5 @@ DIR=$(pwd)
 rm Anaconda2-*.sh
 rm -rf $HOME/anaconda2
 rm -rf $HOME/.conda
+
+git clone -b leewyang_keras https://github.com/yahoo/TensorFlowOnSpark
