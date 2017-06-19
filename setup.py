@@ -4,7 +4,6 @@
 
 !bash ./prepare-mnist-data.sh
 
-!unzip tf_env.zip
-!mv tf_env .local
+!pip install tensorflow
 
 !bash ./convert-mnist-data.sh
