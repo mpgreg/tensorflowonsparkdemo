@@ -4,4 +4,6 @@
 
 !bash ./prepare-mnist-data.sh
 
+!pip install tensorflow
+
 !bash ./convert-mnist-data.sh
