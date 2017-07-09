@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # save images and labels as CSV files
-spark-submit \
+spark2-submit \
 --conf spark.yarn.appMasterEnv.PYSPARK_PYTHON=./TF/tf_env/bin/python \
 --conf spark.yarn.appMasterEnv.PYSPARK_DRIVER_PYTHON=./TF/tf_env/bin/python \
 --master yarn \
