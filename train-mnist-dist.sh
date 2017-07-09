@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-spark-submit \
+spark2-submit \
 --conf spark.yarn.appMasterEnv.PYSPARK_PYTHON=./TF/tf_env/bin/python \
 --conf spark.yarn.appMasterEnv.PYSPARK_DRIVER_PYTHON=./TF/tf_env/bin/python \
 --master yarn \
